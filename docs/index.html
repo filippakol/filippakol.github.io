@@ -28,10 +28,30 @@
   }
   .social-icons a{
     color:#c3f0ca;
+    text-decoration: none;
   }
+  .swim{
+    background-color:#ffc6c7;
+    display: flex;
+    align-items: center;
+  }
+  .home{
+    background-color:#ff8ba7;
+    display: flex;
+    align-items: center;
+  }
+  .swim a, .home a{
+    color:black;
+  }
+  .items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 640px;
+}
   </style>
 </head>
-
+<div class="items">
 <div class="banner">
   <img src="link.jpg" alt="Filippa Kolokotsa Headshot" class="banner-image">
 </div>
@@ -55,6 +75,7 @@
 <div class="home">
   <a href="https://en.wikipedia.org/wiki/Zakynthos" target="_blank" alt="Zakynthos">This is my hometown.</a> 
   <img src="zante.jpg" class="thumbnail">
+</div>
 </div>
 </body>
 </html>
