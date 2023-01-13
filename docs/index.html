@@ -10,12 +10,17 @@
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: #faeee7;
+    justify-content: center;
   }
   .banner-image {
     width: 128px;
     height: 128px;
     object-fit: cover;
     border-radius: 128px;
+  }
+  .banner{
+    display: flex;
+    justify-content: center;
   }
   .thumbnail {
   width: 48px;
@@ -25,30 +30,41 @@
   }
   .name{
     color:#ff8ba7;
+    display: flex;
+    justify-content: center;
   }
   .social-icons a{
     color:#c3f0ca;
     text-decoration: none;
+    justify-content: space-around;
+    display: flex;
   }
   .swim{
     background-color:#ffc6c7;
     display: flex;
     align-items: center;
+    padding: 5px;
   }
   .home{
     background-color:#ff8ba7;
     display: flex;
     align-items: center;
+    padding: 5px;
   }
   .swim a, .home a{
     color:black;
+    text-decoration: none;
+    text-align: center;
+    flex-grow: 1;
   }
   .items {
   display: flex;
   flex-direction: column;
   gap: 30px;
   max-width: 640px;
-}
+  flex-grow: 1;
+  }
+  
   </style>
 </head>
 <div class="items">
@@ -61,9 +77,9 @@
 </div>
 
 <div class="social-icons">
-  <a href="https://www.linkedin.com/in/filippa-kolokotsa-b270101b4/" target="_blank">This is my Linkedin Profile</a>
+  <a href="https://www.linkedin.com/in/filippa-kolokotsa-b270101b4/" target="_blank">Linkedin</a>
 
-  <a href="https://www.instagram.com/filippa_kol/?hl=el" target="_blank">  This is my Instagram. </a>
+  <a href="https://www.instagram.com/filippa_kol/?hl=el" target="_blank">Instagram</a>
 
 </div>
 
